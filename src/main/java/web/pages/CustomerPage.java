@@ -56,7 +56,7 @@ public class CustomerPage extends BasePage {
 	//	clickElement(addFavourite);
 		hardWait(3000);
 		clickElement(addCustomerButton);
-		hardWait(1000);
+		hardWait(2000);
 
 	}
 	
