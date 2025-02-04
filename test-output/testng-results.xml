@@ -1,37 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+<testng-results ignored="5" total="15" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-11T14:51:09 IST" name="Suite" finished-at="2025-01-11T14:53:56 IST" duration-ms="167314">
+  <suite started-at="2025-02-04T18:49:24 IST" name="Suite" finished-at="2025-02-04T18:50:54 IST" duration-ms="89868">
     <groups>
     </groups>
-    <test started-at="2025-01-11T14:51:09 IST" name="Add And Edit All Masters" finished-at="2025-01-11T14:53:56 IST" duration-ms="167314">
-      <class name="tests.CloseLoadScenariosTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.CloseLoadScenariosTest@1807f5a7]" started-at="2025-01-11T14:51:09 IST" name="beforeSuite" finished-at="2025-01-11T14:51:09 IST" duration-ms="6" status="PASS">
+    <test started-at="2025-02-04T18:49:24 IST" name="Add And Edit All Masters" finished-at="2025-02-04T18:50:54 IST" duration-ms="89868">
+      <class name="tests.AllMasters">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:24 IST" name="beforeSuite" finished-at="2025-02-04T18:49:24 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CloseLoadScenariosTest@1807f5a7]" started-at="2025-01-11T14:51:09 IST" name="setup" finished-at="2025-01-11T14:51:19 IST" duration-ms="9621" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:24 IST" name="setup" finished-at="2025-02-04T18:49:33 IST" duration-ms="9416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyiClientIsAbleToCloseMyLoadToDriver()[pri:7, instance:tests.CloseLoadScenariosTest@1807f5a7]" started-at="2025-01-11T14:51:19 IST" name="VerifyiClientIsAbleToCloseMyLoadToDriver" finished-at="2025-01-11T14:52:08 IST" duration-ms="49549" status="PASS">
+        <test-method signature="VerifyUserIsAbleToAddDriver()[pri:2, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:33 IST" name="VerifyUserIsAbleToAddDriver" finished-at="2025-02-04T18:49:57 IST" duration-ms="23550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyiClientIsAbleToCloseMyLoadToDriver -->
-        <test-method signature="VerifyiClientIsAbleToCloseMyLoadToBoth()[pri:8, instance:tests.CloseLoadScenariosTest@1807f5a7]" started-at="2025-01-11T14:52:08 IST" name="VerifyiClientIsAbleToCloseMyLoadToBoth" finished-at="2025-01-11T14:53:04 IST" duration-ms="55314" status="PASS">
+        </test-method> <!-- VerifyUserIsAbleToAddDriver -->
+        <test-method signature="DashboardDriverList()[pri:3, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:57 IST" name="DashboardDriverList" finished-at="2025-02-04T18:49:59 IST" duration-ms="2152" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyiClientIsAbleToCloseMyLoadToBoth -->
-        <test-method signature="VerifyiClientIsAbleToCloseMyLoadOfVendor()[pri:9, instance:tests.CloseLoadScenariosTest@1807f5a7]" started-at="2025-01-11T14:53:04 IST" name="VerifyiClientIsAbleToCloseMyLoadOfVendor" finished-at="2025-01-11T14:53:56 IST" duration-ms="52351" status="PASS">
+        </test-method> <!-- DashboardDriverList -->
+        <test-method signature="VerifyUserIsAbleToAddTruck()[pri:5, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:59 IST" name="VerifyUserIsAbleToAddTruck" finished-at="2025-02-04T18:50:13 IST" duration-ms="14221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyiClientIsAbleToCloseMyLoadOfVendor -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseLoadScenariosTest@1807f5a7]" started-at="2025-01-11T14:53:56 IST" name="tearDown" finished-at="2025-01-11T14:53:56 IST" duration-ms="440" status="PASS">
+        </test-method> <!-- VerifyUserIsAbleToAddTruck -->
+        <test-method signature="DashboardTruckList()[pri:6, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:13 IST" name="DashboardTruckList" finished-at="2025-02-04T18:50:16 IST" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardTruckList -->
+        <test-method signature="VerifyUserIsAbleToAddTrailer()[pri:8, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:16 IST" name="VerifyUserIsAbleToAddTrailer" finished-at="2025-02-04T18:50:29 IST" duration-ms="13268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserIsAbleToAddTrailer -->
+        <test-method signature="DashboardTrailerList()[pri:9, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:29 IST" name="DashboardTrailerList" finished-at="2025-02-04T18:50:32 IST" duration-ms="2581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardTrailerList -->
+        <test-method signature="VerifyUserIsAbleToAddCustomer()[pri:11, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:32 IST" name="VerifyUserIsAbleToAddCustomer" finished-at="2025-02-04T18:50:41 IST" duration-ms="9725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserIsAbleToAddCustomer -->
+        <test-method signature="DashboardCustomerList()[pri:12, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:41 IST" name="DashboardCustomerList" finished-at="2025-02-04T18:50:44 IST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardCustomerList -->
+        <test-method signature="VerifyUserIsAbleToAddVendor()[pri:14, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:44 IST" name="VerifyUserIsAbleToAddVendor" finished-at="2025-02-04T18:50:51 IST" duration-ms="6688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserIsAbleToAddVendor -->
+        <test-method signature="DashboardVendorList()[pri:15, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:51 IST" name="DashboardVendorList" finished-at="2025-02-04T18:50:53 IST" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardVendorList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:53 IST" name="tearDown" finished-at="2025-02-04T18:50:54 IST" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.CloseLoadScenariosTest -->
+      </class> <!-- tests.AllMasters -->
     </test> <!-- Add And Edit All Masters -->
   </suite> <!-- Suite -->
 </testng-results>

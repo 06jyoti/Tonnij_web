@@ -6,14 +6,21 @@
   </listeners>
   <test thread-count="5" name="Add And Edit All Masters(failed)">
     <classes>
-      <class name="tests.CloseLoadScenariosTest">
+      <class name="tests.AllMasters">
         <methods>
-          <include name="beforeSuite"/>
+          <include name="VerifyUserIsAbleToAddDriverUpdate"/>
+          <include name="VerifyUserIsAbleToAddCustomer"/>
+          <include name="AVerifyUserIsAbleToUpdateTruck"/>
+          <include name="VerifyUserIsAbleToUpdateVendor"/>
+          <include name="VerifyUserIsAbleToAddVendor"/>
+          <include name="VerifyUserIsAbleToAddTruck"/>
           <include name="setup"/>
-          <include name="VerifyiClientIsAbleToCloseMyLoadToDriver"/>
+          <include name="beforeSuite"/>
           <include name="tearDown"/>
+          <include name="VerifyUserIsAbleToAddTrailer"/>
+          <include name="AVerifyUserIsAbleTUpdatedTrailer"/>
         </methods>
-      </class> <!-- tests.CloseLoadScenariosTest -->
+      </class> <!-- tests.AllMasters -->
     </classes>
   </test> <!-- Add And Edit All Masters(failed) -->
 </suite> <!-- Failed suite [Suite] -->

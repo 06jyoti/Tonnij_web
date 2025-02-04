@@ -171,7 +171,7 @@ public class CreateLoadPage extends BasePage {
 
 		hardWait(2000);
 		clickElement(createLoad);
-		enterData(company, " Nijomee T");
+		enterData(company, "Kube");
 		hardWait(2000);
 		clickElement(customerFromDropdown);
 		hardWait(2000);
