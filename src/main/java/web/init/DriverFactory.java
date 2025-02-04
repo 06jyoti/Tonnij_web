@@ -1,7 +1,5 @@
 package web.init;
 
-import javax.print.DocFlavor.URL;
-
 import org.junit.Assert;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
@@ -11,8 +9,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.CommandExecutor;
-import org.openqa.selenium.remote.RemoteWebDriver;
+
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import web.config.WebConfig;
@@ -53,6 +50,8 @@ public class DriverFactory {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		if (isheadless.toLowerCase().equals("false")) {
+			options.setAcceptInsecureCerts(false);
+	          driver= new ChromeDriver(options);
 			options.addArguments("--start-maximized");
 			options.addArguments("--remote-allow-origins=*");
 		     // Add arguments to disable the save password prompt
@@ -66,6 +65,7 @@ public class DriverFactory {
 		driver =new ChromeDriver(options);
 		return driver;
 	}
+
 
 	private WebDriver initFirefoxDriver(String isheadless) {
 		WebDriverManager.firefoxdriver().setup();

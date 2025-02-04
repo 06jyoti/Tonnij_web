@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.UserTest">
+        <methods>
+          <include name="AVerifyUserIsAbleToLogin"/>
+          <include name="CVerifyUserIsAbleToUploadDocument"/>
+          <include name="BVerifyUserIsAbleToAddManager"/>
+          <include name="setup"/>
+          <include name="DVerifyUserIsAbleToAddMasterSetting"/>
+          <include name="EVerifyUserIsAbleToTaxClass"/>
+          <include name="GVerifyIfAdminIsAbleToApproveClient"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="FVerifyAdminLogin"/>
+        </methods>
+      </class> <!-- tests.UserTest -->
+      <class name="tests.ImportAllMastersTest">
+        <methods>
+          <include name="VerifyUserIsAbleToImportDriver"/>
+          <include name="setup"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ImportAllMastersTest -->
+      <class name="tests.VendorTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="VerifyUserIsAbleToAddVendor"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.VendorTest -->
+      <class name="tests.CloseLoadScenariosTest">
+        <methods>
+          <include name="VerifyiClientIsAbleToCloseMyLoadToBoth"/>
+          <include name="VerifyiClientIsAbleToCloseCustomerLoadToBoth"/>
+          <include name="VerifyiClientIsAbleToCloseMyLoadOfVendor"/>
+          <include name="VerifyiClientIsAbleToCloseCustomerLoadToDriver"/>
+          <include name="VerifyiClientIsAbleToCloseCustomerLoadToVendor"/>
+          <include name="beforeSuite"/>
+          <include name="VerifyiClientIsAbleToCloseMyLoadToDriver"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CloseLoadScenariosTest -->
+      <class name="tests.MyLoadToDriverTest">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToBothclose"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToVendor"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToDriver"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToBoth"/>
+        </methods>
+      </class> <!-- tests.MyLoadToDriverTest -->
+      <class name="tests.CreateLoadTest">
+        <methods>
+          <include name="VerifyiClientIsAbleToAssignMyLoadBothCases"/>
+          <include name="VerifyiClientIsAbleToAssignCustomerLoadToBoth"/>
+          <include name="setup"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToVendor"/>
+          <include name="VerifyiClientIsAbleToCreateMyLoad"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToDriver"/>
+          <include name="VerifyiClientIsAbleToAssignCustomerLoadToDriver"/>
+          <include name="beforeSuite"/>
+          <include name="CreateLoadOfExistingCustomer"/>
+          <include name="VerifyiClientIsAbleToAssignCustomerLoadToVendor"/>
+          <include name="tearDown"/>
+          <include name="VerifyClientIsAbleToCreateLoadOfNewCustomer"/>
+        </methods>
+      </class> <!-- tests.CreateLoadTest -->
+      <class name="tests.CustomerLoadTest">
+        <methods>
+          <include name="loadByDropdown"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CustomerLoadTest -->
+      <class name="tests.TruckTest">
+        <methods>
+          <include name="VerifyUserIsAbleToAddTruck"/>
+          <include name="setup"/>
+          <include name="beforeSuite"/>
+          <include name="AVerifyUserIsAbleToGoDasboard"/>
+          <include name="tearDown"/>
+          <include name="VerifyUserIsAbleToLogin"/>
+        </methods>
+      </class> <!-- tests.TruckTest -->
+      <class name="tests.LoginSignUpTest">
+        <methods>
+          <include name="setup"/>
+          <include name="AVerifyUserIsAbleToLogin"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.LoginSignUpTest -->
+      <class name="tests.MyLoadTest">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToBothclose"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToDriver"/>
+          <include name="beforeSuite"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToVendor"/>
+          <include name="VerifyiClientIsAbleToAssignMyLoadToBoth"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.MyLoadTest -->
+      <class name="tests.CustomerTest">
+        <methods>
+          <include name="Dashboard"/>
+          <include name="VerifyUserIsAbleToLogin"/>
+          <include name="VerifyUserIsAbleToAddCustomer"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="VerifyUserIsAbleToUpdateCustomer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CustomerTest -->
+      <class name="tests.TrailerTest">
+        <methods>
+          <include name="AVerifyUserIsAbleToGoDasboard"/>
+          <include name="VerifyUserIsAbleToAddTrailer"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TrailerTest -->
+      <class name="tests.DriverTest">
+        <methods>
+          <include name="VerifyUserIsAbleToAddDriver"/>
+          <include name="setup"/>
+          <include name="VerifyUserIsAbleToAddDriverUpdate"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.DriverTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

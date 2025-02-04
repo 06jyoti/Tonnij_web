@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,068.568" tests="54" errors="0" skipped="7" failures="42">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\dell\eclipse-workspace\TONNIJ_WEB\target\test-classes;c:\Users\dell\eclipse-workspace\TONNIJ_WEB\target\classes;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\dell\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\dell\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dell\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\dell\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\dell\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\dell\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\dell\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\dell\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\dell\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\dell\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\dell\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\dell\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\dell\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\dell\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\dell\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\dell\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\dell\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\dell\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dell\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\dell\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\dell\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\dell\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\dell\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dell\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dell\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dell\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\dell\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\dell\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire564242149002385895\surefirebooter698100850130763950.jar C:\Users\dell\AppData\Local\Temp\surefire564242149002385895 2025-01-29T18-36-58_648-jvmRun1 surefire11388414474169206408tmp surefire_01454814652904830268tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="c:\Users\dell\eclipse-workspace\TONNIJ_WEB\target\test-classes;c:\Users\dell\eclipse-workspace\TONNIJ_WEB\target\classes;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\dell\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\dell\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dell\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\dell\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\dell\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\dell\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dell\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\dell\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\dell\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\dell\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\dell\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\dell\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\dell\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\dell\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\dell\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\dell\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\dell\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\dell\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\dell\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\dell\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\dell\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\dell\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\dell\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\dell\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\dell\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\dell\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\dell\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\dell\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dell\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\dell\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dell\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dell\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\dell\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\dell\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dell"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="c:\Users\dell\eclipse-workspace\TONNIJ_WEB"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire564242149002385895\surefirebooter698100850130763950.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-LTS-2513"/>
+    <property name="user.name" value="dell"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\dell\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="c:\Users\dell\eclipse-workspace\TONNIJ_WEB"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21;C:\Users\dell\AppData\Local\Android\Sdk\tools\bin;C:\Users\dell\AppData\Local\Android\Sdk\tools;C:\Users\dell\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\dell\AppData\Roaming\npm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\dell\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;;C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\bin;%IntelliJ IDEA%;C:\Users\dell\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-LTS-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="VerifyiClientIsAbleToCloseCustomerLoadToVendor" classname="tests.CloseLoadScenariosTest" time="22.504">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6be948eeb886a87e6063fa8cb7e39971" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseCustomerLoadToVendor(CloseLoadScenariosTest.java:71)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jan 29, 2025 6:37:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:37:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:37:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:37:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToCloseCustomerLoadToDriver" classname="tests.CloseLoadScenariosTest" time="22.077">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6be948eeb886a87e6063fa8cb7e39971" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseCustomerLoadToDriver(CloseLoadScenariosTest.java:51)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToCloseCustomerLoadToBoth" classname="tests.CloseLoadScenariosTest" time="22.138">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6be948eeb886a87e6063fa8cb7e39971" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseCustomerLoadToBoth(CloseLoadScenariosTest.java:91)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToCloseMyLoadToDriver" classname="tests.CloseLoadScenariosTest" time="22.443">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6be948eeb886a87e6063fa8cb7e39971" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseMyLoadToDriver(CloseLoadScenariosTest.java:109)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToCloseMyLoadToBoth" classname="tests.CloseLoadScenariosTest" time="22.213">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6be948eeb886a87e6063fa8cb7e39971" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseMyLoadToBoth(CloseLoadScenariosTest.java:124)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToCloseMyLoadOfVendor" classname="tests.CloseLoadScenariosTest" time="22.011">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6be948eeb886a87e6063fa8cb7e39971" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseMyLoadOfVendor(CloseLoadScenariosTest.java:36)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToCreateMyLoad" classname="tests.CreateLoadTest" time="22.348">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToCreateMyLoad(CreateLoadTest.java:39)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:39:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:39:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:39:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:39:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyClientIsAbleToCreateLoadOfNewCustomer" classname="tests.CreateLoadTest" time="22.023">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyClientIsAbleToCreateLoadOfNewCustomer(CreateLoadTest.java:51)
+</failure>
+  </testcase>
+  <testcase name="CreateLoadOfExistingCustomer" classname="tests.CreateLoadTest" time="22.5">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.CreateLoadOfExistingCustomer(CreateLoadTest.java:68)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignCustomerLoadToDriver" classname="tests.CreateLoadTest" time="22.487">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignCustomerLoadToDriver(CreateLoadTest.java:82)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignCustomerLoadToVendor" classname="tests.CreateLoadTest" time="22.023">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignCustomerLoadToVendor(CreateLoadTest.java:96)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignCustomerLoadToBoth" classname="tests.CreateLoadTest" time="22.52">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignCustomerLoadToBoth(CreateLoadTest.java:112)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToDriver" classname="tests.CreateLoadTest" time="22.446">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignMyLoadToDriver(CreateLoadTest.java:126)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadBothCases" classname="tests.CreateLoadTest" time="22.033">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignMyLoadBothCases(CreateLoadTest.java:147)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToVendor" classname="tests.CreateLoadTest" time="22.49">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignMyLoadToVendor(CreateLoadTest.java:137)
+</failure>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToLogin" classname="tests.CustomerLoadTest" time="6.554"/>
+  <testcase name="loadByDropdown" classname="tests.CustomerLoadTest" time="22.427">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerLoadTest.loadByDropdown(CustomerLoadTest.java:33)
+</failure>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToLogin" classname="tests.CustomerTest" time="36.236">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.VerifyUserIsAbleToLogin(CustomerTest.java:36)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:43:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:43:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:43:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:43:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToAddCustomer" classname="tests.CustomerTest" time="22.46">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()=&apos;Customer(s)&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Customer(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.VerifyUserIsAbleToAddCustomer(CustomerTest.java:42)
+</failure>
+  </testcase>
+  <testcase name="Dashboard" classname="tests.CustomerTest" time="20.479">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class=&apos;pointer&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class='pointer'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.Dashboard(CustomerTest.java:53)
+</failure>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToUpdateCustomer" classname="tests.CustomerTest" time="20.009">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Masters&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Masters'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.VerifyUserIsAbleToUpdateCustomer(CustomerTest.java:58)
+</failure>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToAddDriver" classname="tests.DriverTest" time="24.028">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()=&apos;+ Add Driver&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53343/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 843a16949d56fa254651b0d2739b822b" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()='+ Add Driver'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53343/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 843a16949d56fa254651b0d2739b822b
+	at tests.DriverTest.VerifyUserIsAbleToAddDriver(DriverTest.java:43)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:45:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:45:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:45:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:45:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="DriverList" classname="tests.DriverTest" time="2.426"/>
+  <testcase name="VerifyUserIsAbleToAddDriverUpdate" classname="tests.DriverTest" time="32.451">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()=&apos;Masters&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Masters'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.DriverTest.VerifyUserIsAbleToAddDriverUpdate(DriverTest.java:59)
+</failure>
+  </testcase>
+  <testcase name="setup" classname="tests.ImportAllMastersTest" time="73.776">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.ImportAllMastersTest.setup(ImportAllMastersTest.java:28)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:46:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:46:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:46:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:46:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToImportDriver" classname="tests.ImportAllMastersTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)"/>
+  </testcase>
+  <testcase name="tearDown" classname="tests.ImportAllMastersTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="AVerifyUserIsAbleToLogin" classname="tests.LoginSignUpTest" time="6.261">
+    <failure message="The following asserts failed:&#10;	url is Mis-Matched expected [https://4tn5p340-4200.inc1.devtunnels.ms/auth/client-signup] but found [https://web.tonnij.com/auth/client-login]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	url is Mis-Matched expected [https://4tn5p340-4200.inc1.devtunnels.ms/auth/client-signup] but found [https://web.tonnij.com/auth/client-login]
+	at tests.LoginSignUpTest.AVerifyUserIsAbleToLogin(LoginSignUpTest.java:30)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:47:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:47:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:47:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="tests.MyLoadTest" time="45.913">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.MyLoadTest.setup(MyLoadTest.java:23)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:47:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:47:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:47:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:47:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToDriver" classname="tests.MyLoadTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)"/>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToVendor" classname="tests.MyLoadTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)"/>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToBoth" classname="tests.MyLoadTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)"/>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToBothclose" classname="tests.MyLoadTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)"/>
+  </testcase>
+  <testcase name="tearDown" classname="tests.MyLoadTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToDriver" classname="tests.MyLoadToDriverTest" time="22.054">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToDriver(MyLoadToDriverTest.java:33)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:47:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:47:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:47:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:47:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToVendor" classname="tests.MyLoadToDriverTest" time="22.481">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToVendor(MyLoadToDriverTest.java:44)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToBoth" classname="tests.MyLoadToDriverTest" time="22.483">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToBoth(MyLoadToDriverTest.java:54)
+</failure>
+  </testcase>
+  <testcase name="VerifyiClientIsAbleToAssignMyLoadToBothclose" classname="tests.MyLoadToDriverTest" time="22.464">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()=&apos;Create Load&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToBothclose(MyLoadToDriverTest.java:64)
+</failure>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToLogin" classname="tests.TrailerTest" time="6.57"/>
+  <testcase name="VerifyUserIsAbleToAddTrailer" classname="tests.TrailerTest" time="20.264">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()=&apos;Trailer(s)&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Trailer(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TrailerTest.VerifyUserIsAbleToAddTrailer(TrailerTest.java:43)
+</failure>
+  </testcase>
+  <testcase name="AVerifyUserIsAbleToGoDasboard" classname="tests.TrailerTest" time="20.509">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class=&apos;pointer&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class='pointer'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TrailerTest.AVerifyUserIsAbleToGoDasboard(TrailerTest.java:53)
+</failure>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToLogin" classname="tests.TruckTest" time="36.228">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname=&apos;email&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.TruckTest.VerifyUserIsAbleToLogin(TruckTest.java:38)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:50:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:50:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:50:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:50:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToAddTruck" classname="tests.TruckTest" time="20.475">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()=&apos;Truck(s)&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Truck(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TruckTest.VerifyUserIsAbleToAddTruck(TruckTest.java:43)
+</failure>
+  </testcase>
+  <testcase name="AVerifyUserIsAbleToGoDasboard" classname="tests.TruckTest" time="20.466">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class=&apos;pointer&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class='pointer'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TruckTest.AVerifyUserIsAbleToGoDasboard(TruckTest.java:52)
+</failure>
+  </testcase>
+  <testcase name="AVerifyUserIsAbleToLogin" classname="tests.UserTest" time="38.535">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()=&apos;Login to Dashboard&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()='Login to Dashboard'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.UserTest.AVerifyUserIsAbleToLogin(UserTest.java:27)
+</failure>
+    <system-err><![CDATA[Jan 29, 2025 6:51:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:51:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jan 29, 2025 6:51:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Jan 29, 2025 6:51:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 132.0.6834.111. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="BVerifyUserIsAbleToAddManager" classname="tests.UserTest" time="7.018">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=132.0.6834.111)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [17ffc0453291f4386f35d3480ea8ef1e, findElement {using=xpath, value=(//input[@type=&apos;file&apos;])[1]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54097/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 17ffc0453291f4386f35d3480ea8ef1e" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.111)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17ffc0453291f4386f35d3480ea8ef1e, findElement {using=xpath, value=(//input[@type='file'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54097/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17ffc0453291f4386f35d3480ea8ef1e
+	at tests.UserTest.BVerifyUserIsAbleToAddManager(UserTest.java:41)
+</failure>
+  </testcase>
+  <testcase name="CVerifyUserIsAbleToUploadDocument" classname="tests.UserTest" time="2.018">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=132.0.6834.111)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [17ffc0453291f4386f35d3480ea8ef1e, findElement {using=xpath, value=(//input[@type=&apos;file&apos;])[2]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54097/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 17ffc0453291f4386f35d3480ea8ef1e" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.111)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17ffc0453291f4386f35d3480ea8ef1e, findElement {using=xpath, value=(//input[@type='file'])[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54097/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17ffc0453291f4386f35d3480ea8ef1e
+	at tests.UserTest.CVerifyUserIsAbleToUploadDocument(UserTest.java:49)
+</failure>
+  </testcase>
+  <testcase name="DVerifyUserIsAbleToAddMasterSetting" classname="tests.UserTest" time="30.202">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;Order_Series_Number&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='Order_Series_Number'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.UserTest.DVerifyUserIsAbleToAddMasterSetting(UserTest.java:55)
+</failure>
+  </testcase>
+  <testcase name="EVerifyUserIsAbleToTaxClass" classname="tests.UserTest" time="22.502">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()=&apos;+ Add Class&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()='+ Add Class'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.UserTest.EVerifyUserIsAbleToTaxClass(UserTest.java:61)
+</failure>
+  </testcase>
+  <testcase name="FVerifyAdminLogin" classname="tests.UserTest" time="32.233">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.cssSelector: .header-right--user.w-100.d-flex.align-items-center.justify-content-between.gap-2 (tried for 30 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for element to be clickable: By.cssSelector: .header-right--user.w-100.d-flex.align-items-center.justify-content-between.gap-2 (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.UserTest.FVerifyAdminLogin(UserTest.java:67)
+</failure>
+  </testcase>
+  <testcase name="GVerifyIfAdminIsAbleToApproveClient" classname="tests.UserTest" time="20.018">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()=&apos;Pending Approval(s)&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Pending Approval(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.UserTest.GVerifyIfAdminIsAbleToApproveClient(UserTest.java:73)
+</failure>
+  </testcase>
+  <testcase name="VerifyUserIsAbleToLogin" classname="tests.VendorTest" time="6.542"/>
+  <testcase name="VerifyUserIsAbleToAddVendor" classname="tests.VendorTest" time="20.087">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()=&apos;Vendor(s)&apos;] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54271/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 497b982ff6e6731dd70f8d00197059a7" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Vendor(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54271/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 497b982ff6e6731dd70f8d00197059a7
+	at tests.VendorTest.VerifyUserIsAbleToAddVendor(VendorTest.java:42)
+</failure>
+  </testcase>
+  <testcase name="DashboardVendorList" classname="tests.VendorTest" time="2.873"/>
+</testsuite>

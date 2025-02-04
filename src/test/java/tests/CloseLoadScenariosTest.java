@@ -62,6 +62,8 @@ public class CloseLoadScenariosTest extends BaseTest {
 
 	}
 
+
+
 //	@Test( priority = 5, enabled = true)
 	
 	@Test
@@ -80,8 +82,9 @@ public class CloseLoadScenariosTest extends BaseTest {
 		
 		closeLoad.closeVendorLoad(CreateLoad.UPLOAD_PDF,CreateLoad.UNIT_1, CreateLoad.UNIT_2, CreateLoad.TKT_1, CreateLoad.TKT_2); 
 
-
 	}
+
+
 
 	@Test( priority = 6, enabled = true)
 	public void VerifyiClientIsAbleToCloseCustomerLoadToBoth() throws Exception {
@@ -96,10 +99,10 @@ public class CloseLoadScenariosTest extends BaseTest {
 		load.assignLoadToBoth(CreateLoad.PICKUP_STREET_NAME,CreateLoad.AGREED_RATE);
 		
 		closeLoad.closeCustomerLoadBothCases(CreateLoad.UPLOAD_PDF,CreateLoad.UNIT_1,  CreateLoad.TKT_1, CreateLoad.TKT_2); 
-		
-
 
 	}
+
+
 
 	@Test( priority = 7, enabled = true)
 	public void VerifyiClientIsAbleToCloseMyLoadToDriver() throws Exception {
@@ -114,6 +117,8 @@ public class CloseLoadScenariosTest extends BaseTest {
 
 	}
 
+
+
 	@Test( priority = 8, enabled = true)
 	public void VerifyiClientIsAbleToCloseMyLoadToBoth() throws Exception {
 		load.MyLoad(CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY, CreateLoad.PICKUP_POSTAL_CODE,
@@ -124,7 +129,6 @@ public class CloseLoadScenariosTest extends BaseTest {
 		load.assignLoadToBoth(CreateLoad.PICKUP_STREET_NAME,CreateLoad.AGREED_RATE);
 		
 		closeLoad.closeMyLoadBothCases(CreateLoad.UPLOAD_PDF,CreateLoad.UNIT_1, CreateLoad.TKT_1); 
-
 
 	}
 

@@ -1,0 +1,240 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 54, Failures: 42, Errors: 0, Skipped: 7, Time elapsed: 1,068.568 s <<< FAILURE! - in TestSuite
+VerifyiClientIsAbleToCloseCustomerLoadToVendor(tests.CloseLoadScenariosTest)  Time elapsed: 22.504 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseCustomerLoadToVendor(CloseLoadScenariosTest.java:71)
+
+VerifyiClientIsAbleToCloseCustomerLoadToDriver(tests.CloseLoadScenariosTest)  Time elapsed: 22.077 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseCustomerLoadToDriver(CloseLoadScenariosTest.java:51)
+
+VerifyiClientIsAbleToCloseCustomerLoadToBoth(tests.CloseLoadScenariosTest)  Time elapsed: 22.138 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseCustomerLoadToBoth(CloseLoadScenariosTest.java:91)
+
+VerifyiClientIsAbleToCloseMyLoadToDriver(tests.CloseLoadScenariosTest)  Time elapsed: 22.443 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseMyLoadToDriver(CloseLoadScenariosTest.java:109)
+
+VerifyiClientIsAbleToCloseMyLoadToBoth(tests.CloseLoadScenariosTest)  Time elapsed: 22.213 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseMyLoadToBoth(CloseLoadScenariosTest.java:124)
+
+VerifyiClientIsAbleToCloseMyLoadOfVendor(tests.CloseLoadScenariosTest)  Time elapsed: 22.011 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52216/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6be948eeb886a87e6063fa8cb7e39971
+	at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseMyLoadOfVendor(CloseLoadScenariosTest.java:36)
+
+VerifyiClientIsAbleToCreateMyLoad(tests.CreateLoadTest)  Time elapsed: 22.348 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToCreateMyLoad(CreateLoadTest.java:39)
+
+VerifyClientIsAbleToCreateLoadOfNewCustomer(tests.CreateLoadTest)  Time elapsed: 22.023 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyClientIsAbleToCreateLoadOfNewCustomer(CreateLoadTest.java:51)
+
+CreateLoadOfExistingCustomer(tests.CreateLoadTest)  Time elapsed: 22.5 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.CreateLoadOfExistingCustomer(CreateLoadTest.java:68)
+
+VerifyiClientIsAbleToAssignCustomerLoadToDriver(tests.CreateLoadTest)  Time elapsed: 22.487 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignCustomerLoadToDriver(CreateLoadTest.java:82)
+
+VerifyiClientIsAbleToAssignCustomerLoadToVendor(tests.CreateLoadTest)  Time elapsed: 22.023 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignCustomerLoadToVendor(CreateLoadTest.java:96)
+
+VerifyiClientIsAbleToAssignCustomerLoadToBoth(tests.CreateLoadTest)  Time elapsed: 22.52 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignCustomerLoadToBoth(CreateLoadTest.java:112)
+
+VerifyiClientIsAbleToAssignMyLoadToDriver(tests.CreateLoadTest)  Time elapsed: 22.446 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignMyLoadToDriver(CreateLoadTest.java:126)
+
+VerifyiClientIsAbleToAssignMyLoadBothCases(tests.CreateLoadTest)  Time elapsed: 22.033 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignMyLoadBothCases(CreateLoadTest.java:147)
+
+VerifyiClientIsAbleToAssignMyLoadToVendor(tests.CreateLoadTest)  Time elapsed: 22.49 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreateLoadTest.VerifyiClientIsAbleToAssignMyLoadToVendor(CreateLoadTest.java:137)
+
+loadByDropdown(tests.CustomerLoadTest)  Time elapsed: 22.427 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerLoadTest.loadByDropdown(CustomerLoadTest.java:33)
+
+VerifyUserIsAbleToLogin(tests.CustomerTest)  Time elapsed: 36.236 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.VerifyUserIsAbleToLogin(CustomerTest.java:36)
+
+VerifyUserIsAbleToAddCustomer(tests.CustomerTest)  Time elapsed: 22.46 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Customer(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.VerifyUserIsAbleToAddCustomer(CustomerTest.java:42)
+
+Dashboard(tests.CustomerTest)  Time elapsed: 20.479 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class='pointer'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.Dashboard(CustomerTest.java:53)
+
+VerifyUserIsAbleToUpdateCustomer(tests.CustomerTest)  Time elapsed: 20.009 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Masters'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CustomerTest.VerifyUserIsAbleToUpdateCustomer(CustomerTest.java:58)
+
+VerifyUserIsAbleToAddDriver(tests.DriverTest)  Time elapsed: 24.028 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()='+ Add Driver'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53343/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 843a16949d56fa254651b0d2739b822b
+	at tests.DriverTest.VerifyUserIsAbleToAddDriver(DriverTest.java:43)
+
+VerifyUserIsAbleToAddDriverUpdate(tests.DriverTest)  Time elapsed: 32.451 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='Masters'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.DriverTest.VerifyUserIsAbleToAddDriverUpdate(DriverTest.java:59)
+
+setup(tests.ImportAllMastersTest)  Time elapsed: 73.776 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.ImportAllMastersTest.setup(ImportAllMastersTest.java:28)
+
+AVerifyUserIsAbleToLogin(tests.LoginSignUpTest)  Time elapsed: 6.261 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	url is Mis-Matched expected [https://4tn5p340-4200.inc1.devtunnels.ms/auth/client-signup] but found [https://web.tonnij.com/auth/client-login]
+	at tests.LoginSignUpTest.AVerifyUserIsAbleToLogin(LoginSignUpTest.java:30)
+
+setup(tests.MyLoadTest)  Time elapsed: 45.913 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.MyLoadTest.setup(MyLoadTest.java:23)
+
+VerifyiClientIsAbleToAssignMyLoadToDriver(tests.MyLoadToDriverTest)  Time elapsed: 22.054 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToDriver(MyLoadToDriverTest.java:33)
+
+VerifyiClientIsAbleToAssignMyLoadToVendor(tests.MyLoadToDriverTest)  Time elapsed: 22.481 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToVendor(MyLoadToDriverTest.java:44)
+
+VerifyiClientIsAbleToAssignMyLoadToBoth(tests.MyLoadToDriverTest)  Time elapsed: 22.483 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToBoth(MyLoadToDriverTest.java:54)
+
+VerifyiClientIsAbleToAssignMyLoadToBothclose(tests.MyLoadToDriverTest)  Time elapsed: 22.464 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Create Load'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.MyLoadToDriverTest.VerifyiClientIsAbleToAssignMyLoadToBothclose(MyLoadToDriverTest.java:64)
+
+VerifyUserIsAbleToAddTrailer(tests.TrailerTest)  Time elapsed: 20.264 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Trailer(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TrailerTest.VerifyUserIsAbleToAddTrailer(TrailerTest.java:43)
+
+AVerifyUserIsAbleToGoDasboard(tests.TrailerTest)  Time elapsed: 20.509 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class='pointer'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TrailerTest.AVerifyUserIsAbleToGoDasboard(TrailerTest.java:53)
+
+VerifyUserIsAbleToLogin(tests.TruckTest)  Time elapsed: 36.228 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@formcontrolname='email'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.TruckTest.VerifyUserIsAbleToLogin(TruckTest.java:38)
+
+VerifyUserIsAbleToAddTruck(tests.TruckTest)  Time elapsed: 20.475 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Truck(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TruckTest.VerifyUserIsAbleToAddTruck(TruckTest.java:43)
+
+AVerifyUserIsAbleToGoDasboard(tests.TruckTest)  Time elapsed: 20.466 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class='pointer'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.TruckTest.AVerifyUserIsAbleToGoDasboard(TruckTest.java:52)
+
+AVerifyUserIsAbleToLogin(tests.UserTest)  Time elapsed: 38.535 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()='Login to Dashboard'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.UserTest.AVerifyUserIsAbleToLogin(UserTest.java:27)
+
+BVerifyUserIsAbleToAddManager(tests.UserTest)  Time elapsed: 7.018 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.111)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17ffc0453291f4386f35d3480ea8ef1e, findElement {using=xpath, value=(//input[@type='file'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54097/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17ffc0453291f4386f35d3480ea8ef1e
+	at tests.UserTest.BVerifyUserIsAbleToAddManager(UserTest.java:41)
+
+CVerifyUserIsAbleToUploadDocument(tests.UserTest)  Time elapsed: 2.018 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.111)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17ffc0453291f4386f35d3480ea8ef1e, findElement {using=xpath, value=(//input[@type='file'])[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54097/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17ffc0453291f4386f35d3480ea8ef1e
+	at tests.UserTest.CVerifyUserIsAbleToUploadDocument(UserTest.java:49)
+
+DVerifyUserIsAbleToAddMasterSetting(tests.UserTest)  Time elapsed: 30.202 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='Order_Series_Number'] (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.UserTest.DVerifyUserIsAbleToAddMasterSetting(UserTest.java:55)
+
+EVerifyUserIsAbleToTaxClass(tests.UserTest)  Time elapsed: 22.502 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //button[normalize-space()='+ Add Class'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.UserTest.EVerifyUserIsAbleToTaxClass(UserTest.java:61)
+
+FVerifyAdminLogin(tests.UserTest)  Time elapsed: 32.233 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for element to be clickable: By.cssSelector: .header-right--user.w-100.d-flex.align-items-center.justify-content-between.gap-2 (tried for 30 second(s) with 500 milliseconds interval)
+	at tests.UserTest.FVerifyAdminLogin(UserTest.java:67)
+
+GVerifyIfAdminIsAbleToApproveClient(tests.UserTest)  Time elapsed: 20.018 s  <<< FAILURE!
+java.lang.AssertionError: Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Pending Approval(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.UserTest.GVerifyIfAdminIsAbleToApproveClient(UserTest.java:73)
+
+VerifyUserIsAbleToAddVendor(tests.VendorTest)  Time elapsed: 20.087 s  <<< FAILURE!
+java.lang.AssertionError: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //p[normalize-space()='Vendor(s)'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 132.0.6834.111, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54271/devtoo..., se:cdpVersion: 132.0.6834.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 497b982ff6e6731dd70f8d00197059a7
+	at tests.VendorTest.VerifyUserIsAbleToAddVendor(VendorTest.java:42)
+
