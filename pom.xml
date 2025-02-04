@@ -102,19 +102,6 @@
                     <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadToDriver.xml</suiteXmlFile>
                     <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadToVendor.xml</suiteXmlFile>
                 </suiteXmlFiles>
-                <suiteXmlFiles>
-                  	<include name="VerifyUserIsAbleToLogin" />
-					<include name="VerifyUserIsAbleToAddDriver" />
-					<include name="VerifyUserIsAbleToAddDriverUpdate" />
-					<include name="VerifyUserIsAbleToAddTruck" />
-					<include name="AVerifyUserIsAbleToUpdateTruck" />
-					<include name="VerifyUserIsAbleToAddTrailer" />
-					<include name="AVerifyUserIsAbleTUpdatedTrailer" />
-					<include name="VerifyUserIsAbleToAddCustomer" />
-					<include name="VerifyUserIsAbleToUpdateCustomer" />
-					<include name="VerifyUserIsAbleToAddVendor" />
-                    <include name="VerifyUserIsAbleToUpdateVendor" />
-                </suiteXmlFiles>
             </configuration>          
         </plugin>
     </plugins>
