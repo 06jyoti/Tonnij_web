@@ -1,65 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="15" passed="10" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T18:49:24 IST" name="Suite" finished-at="2025-02-04T18:50:54 IST" duration-ms="89868">
+  <suite started-at="2025-02-04T19:53:04 IST" name="Default suite" finished-at="2025-02-04T19:54:04 IST" duration-ms="60011">
     <groups>
     </groups>
-    <test started-at="2025-02-04T18:49:24 IST" name="Add And Edit All Masters" finished-at="2025-02-04T18:50:54 IST" duration-ms="89868">
-      <class name="tests.AllMasters">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:24 IST" name="beforeSuite" finished-at="2025-02-04T18:49:24 IST" duration-ms="7" status="PASS">
+    <test started-at="2025-02-04T19:53:04 IST" name="Default test" finished-at="2025-02-04T19:54:04 IST" duration-ms="60011">
+      <class name="tests.CloseLoadScenariosTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.CloseLoadScenariosTest@7b2bbc3]" started-at="2025-02-04T19:53:04 IST" name="beforeSuite" finished-at="2025-02-04T19:53:04 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:24 IST" name="setup" finished-at="2025-02-04T18:49:33 IST" duration-ms="9416" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CloseLoadScenariosTest@7b2bbc3]" started-at="2025-02-04T19:53:04 IST" name="setup" finished-at="2025-02-04T19:53:14 IST" duration-ms="9319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyUserIsAbleToAddDriver()[pri:2, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:33 IST" name="VerifyUserIsAbleToAddDriver" finished-at="2025-02-04T18:49:57 IST" duration-ms="23550" status="PASS">
+        <test-method signature="VerifyiClientIsAbleToCloseCustomerLoadToBoth()[pri:6, instance:tests.CloseLoadScenariosTest@7b2bbc3]" started-at="2025-02-04T19:53:14 IST" name="VerifyiClientIsAbleToCloseCustomerLoadToBoth" finished-at="2025-02-04T19:54:04 IST" duration-ms="50322" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : C:/Users/dell/Downloads/file.pdf
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88931469f63181bebbb32ec011ef4c40, sendKeysToElement {id=f.8A1FD2EB0669BBB616E523911621989B.d.17877D4757ADD9DEA8B1A7A0F92CAFC5.e.1278, value=[Ljava.lang.CharSequence;@ec7b5de}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60321/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (88931469f63181bebbb32ec011ef4c40)] -> xpath: //input[@type='file']]
+Session ID: 88931469f63181bebbb32ec011ef4c40]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:/Users/dell/Downloads/file.pdf
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88931469f63181bebbb32ec011ef4c40, sendKeysToElement {id=f.8A1FD2EB0669BBB616E523911621989B.d.17877D4757ADD9DEA8B1A7A0F92CAFC5.e.1278, value=[Ljava.lang.CharSequence;@ec7b5de}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60321/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (88931469f63181bebbb32ec011ef4c40)] -> xpath: //input[@type='file']]
+Session ID: 88931469f63181bebbb32ec011ef4c40
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at web.pages.BaseMethods.enterData(BaseMethods.java:251)
+at web.pages.CloseLoad.closeCustomerLoadBothCases(CloseLoad.java:105)
+at tests.CloseLoadScenariosTest.VerifyiClientIsAbleToCloseCustomerLoadToBoth(CloseLoadScenariosTest.java:103)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyUserIsAbleToAddDriver -->
-        <test-method signature="DashboardDriverList()[pri:3, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:57 IST" name="DashboardDriverList" finished-at="2025-02-04T18:49:59 IST" duration-ms="2152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DashboardDriverList -->
-        <test-method signature="VerifyUserIsAbleToAddTruck()[pri:5, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:49:59 IST" name="VerifyUserIsAbleToAddTruck" finished-at="2025-02-04T18:50:13 IST" duration-ms="14221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyUserIsAbleToAddTruck -->
-        <test-method signature="DashboardTruckList()[pri:6, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:13 IST" name="DashboardTruckList" finished-at="2025-02-04T18:50:16 IST" duration-ms="2588" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DashboardTruckList -->
-        <test-method signature="VerifyUserIsAbleToAddTrailer()[pri:8, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:16 IST" name="VerifyUserIsAbleToAddTrailer" finished-at="2025-02-04T18:50:29 IST" duration-ms="13268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyUserIsAbleToAddTrailer -->
-        <test-method signature="DashboardTrailerList()[pri:9, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:29 IST" name="DashboardTrailerList" finished-at="2025-02-04T18:50:32 IST" duration-ms="2581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DashboardTrailerList -->
-        <test-method signature="VerifyUserIsAbleToAddCustomer()[pri:11, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:32 IST" name="VerifyUserIsAbleToAddCustomer" finished-at="2025-02-04T18:50:41 IST" duration-ms="9725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyUserIsAbleToAddCustomer -->
-        <test-method signature="DashboardCustomerList()[pri:12, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:41 IST" name="DashboardCustomerList" finished-at="2025-02-04T18:50:44 IST" duration-ms="2608" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DashboardCustomerList -->
-        <test-method signature="VerifyUserIsAbleToAddVendor()[pri:14, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:44 IST" name="VerifyUserIsAbleToAddVendor" finished-at="2025-02-04T18:50:51 IST" duration-ms="6688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyUserIsAbleToAddVendor -->
-        <test-method signature="DashboardVendorList()[pri:15, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:51 IST" name="DashboardVendorList" finished-at="2025-02-04T18:50:53 IST" duration-ms="2601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DashboardVendorList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AllMasters@38145825]" started-at="2025-02-04T18:50:53 IST" name="tearDown" finished-at="2025-02-04T18:50:54 IST" duration-ms="416" status="PASS">
+        </test-method> <!-- VerifyiClientIsAbleToCloseCustomerLoadToBoth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseLoadScenariosTest@7b2bbc3]" started-at="2025-02-04T19:54:04 IST" name="tearDown" finished-at="2025-02-04T19:54:04 IST" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.AllMasters -->
-    </test> <!-- Add And Edit All Masters -->
-  </suite> <!-- Suite -->
+      </class> <!-- tests.CloseLoadScenariosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

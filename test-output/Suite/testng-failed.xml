@@ -4,23 +4,18 @@
   <listeners>
     <listener class-name="extentREPORTS.ListenerClass"/>
   </listeners>
-  <test thread-count="5" name="Add And Edit All Masters(failed)">
+  <test thread-count="5" name="Create Existing Customer Load(failed)">
     <classes>
-      <class name="tests.AllMasters">
+      <class name="tests.CloseLoadScenariosTest">
         <methods>
-          <include name="VerifyUserIsAbleToAddDriverUpdate"/>
-          <include name="VerifyUserIsAbleToAddCustomer"/>
-          <include name="AVerifyUserIsAbleToUpdateTruck"/>
-          <include name="VerifyUserIsAbleToUpdateVendor"/>
-          <include name="VerifyUserIsAbleToAddVendor"/>
-          <include name="VerifyUserIsAbleToAddTruck"/>
-          <include name="setup"/>
+          <include name="VerifyiClientIsAbleToCloseCustomerLoadToBoth"/>
+          <include name="VerifyiClientIsAbleToCloseCustomerLoadToDriver"/>
+          <include name="VerifyiClientIsAbleToCloseCustomerLoadToVendor"/>
           <include name="beforeSuite"/>
+          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="VerifyUserIsAbleToAddTrailer"/>
-          <include name="AVerifyUserIsAbleTUpdatedTrailer"/>
         </methods>
-      </class> <!-- tests.AllMasters -->
+      </class> <!-- tests.CloseLoadScenariosTest -->
     </classes>
-  </test> <!-- Add And Edit All Masters(failed) -->
+  </test> <!-- Create Existing Customer Load(failed) -->
 </suite> <!-- Failed suite [Suite] -->

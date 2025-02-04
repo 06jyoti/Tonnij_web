@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.CloseLoadScenariosTest">
         <methods>
-          <include name="VerifyiClientIsAbleToCloseCustomerLoadToDriver"/>
+          <include name="VerifyiClientIsAbleToCloseCustomerLoadToBoth"/>
           <include name="beforeSuite"/>
           <include name="setup"/>
           <include name="tearDown"/>

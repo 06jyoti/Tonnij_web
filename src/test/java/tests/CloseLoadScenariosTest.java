@@ -86,7 +86,9 @@ public class CloseLoadScenariosTest extends BaseTest {
 
 
 
-	@Test( priority = 6, enabled = true)
+	@Test
+	( priority = 6, enabled = true)
+	
 	public void VerifyiClientIsAbleToCloseCustomerLoadToBoth() throws Exception {
 		load.createLoadByDropdown(CreateLoad.PICKUP_BUILDING_NUMBER, CreateLoad.PICKUP_CITY,
 				CreateLoad.PICKUP_POSTAL_CODE, CreateLoad.PICKUP_STREET_NAME, CreateLoad.DROP_NAME,
