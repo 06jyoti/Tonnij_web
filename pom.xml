@@ -92,15 +92,9 @@
             <version>3.0.0-M5</version>
             <configuration>
                 <suiteXmlFiles>
+					<suiteXmlFile>XML Files/Masters/AddMasters.xml</suiteXmlFile>
                     <suiteXmlFile>XML Files/Customer Load Cases/CompleteCustomerLoadFlow.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/createExistingCustomerLoad.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/createNewCustomerLoad.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadCloseBoth.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadCloseDriver.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadCloseVendor.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadToBoth.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadToDriver.xml</suiteXmlFile>
-                    <suiteXmlFile>XML Files/Customer Load Cases/CustomerLoadToVendor.xml</suiteXmlFile>
+                    <suiteXmlFile>XML Files/My Load Cases/CloseMyLoadFlow.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>          
         </plugin>
